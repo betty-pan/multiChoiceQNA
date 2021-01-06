@@ -13,6 +13,9 @@
 		B37E274725A5C2C300D7015C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B37E274525A5C2C300D7015C /* Main.storyboard */; };
 		B37E274925A5C2C700D7015C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B37E274825A5C2C700D7015C /* Assets.xcassets */; };
 		B37E274C25A5C2C700D7015C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B37E274A25A5C2C700D7015C /* LaunchScreen.storyboard */; };
+		B37E275825A5D33100D7015C /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37E275725A5D33100D7015C /* Question.swift */; };
+		B37E275E25A6136100D7015C /* wrongAnswer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B37E275C25A6136100D7015C /* wrongAnswer.mp3 */; };
+		B37E275F25A6136100D7015C /* correctAnswer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B37E275D25A6136100D7015C /* correctAnswer.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		B37E274825A5C2C700D7015C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B37E274B25A5C2C700D7015C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B37E274D25A5C2C700D7015C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B37E275725A5D33100D7015C /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		B37E275C25A6136100D7015C /* wrongAnswer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wrongAnswer.mp3; sourceTree = "<group>"; };
+		B37E275D25A6136100D7015C /* correctAnswer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = correctAnswer.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +62,13 @@
 		B37E273E25A5C2C300D7015C /* multiChoiceQNA */ = {
 			isa = PBXGroup;
 			children = (
+				B37E275D25A6136100D7015C /* correctAnswer.mp3 */,
+				B37E275C25A6136100D7015C /* wrongAnswer.mp3 */,
 				B37E273F25A5C2C300D7015C /* AppDelegate.swift */,
 				B37E274125A5C2C300D7015C /* SceneDelegate.swift */,
 				B37E274325A5C2C300D7015C /* ViewController.swift */,
 				B37E274525A5C2C300D7015C /* Main.storyboard */,
+				B37E275725A5D33100D7015C /* Question.swift */,
 				B37E274825A5C2C700D7015C /* Assets.xcassets */,
 				B37E274A25A5C2C700D7015C /* LaunchScreen.storyboard */,
 				B37E274D25A5C2C700D7015C /* Info.plist */,
@@ -125,7 +134,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B37E274C25A5C2C700D7015C /* LaunchScreen.storyboard in Resources */,
+				B37E275F25A6136100D7015C /* correctAnswer.mp3 in Resources */,
 				B37E274925A5C2C700D7015C /* Assets.xcassets in Resources */,
+				B37E275E25A6136100D7015C /* wrongAnswer.mp3 in Resources */,
 				B37E274725A5C2C300D7015C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B37E274425A5C2C300D7015C /* ViewController.swift in Sources */,
+				B37E275825A5D33100D7015C /* Question.swift in Sources */,
 				B37E274025A5C2C300D7015C /* AppDelegate.swift in Sources */,
 				B37E274225A5C2C300D7015C /* SceneDelegate.swift in Sources */,
 			);
